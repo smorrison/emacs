@@ -13,14 +13,12 @@
     (eval-print-last-sexp)))
 
 ; packages to install
-(setq 
- my-packages '(auctex
-               auto-complete
+(setq
+ my-packages '(auto-complete
                color-theme-solarized
                ein
                magit
                markdown-mode
-               matlab-mode
                nxhtml
                pydoc-info
                scss-mode
@@ -31,7 +29,7 @@
                helm-descbinds
                js2-mode
                yasnippet
-               ))   
+               ))
 
 ; first enable shallow clone, so we don't need to clone the entire
 ; history of every project
