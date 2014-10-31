@@ -19,7 +19,7 @@
                ein
                magit
                markdown-mode
-               nxhtml
+               ;nxhtml
                pydoc-info
                scss-mode
                popup
